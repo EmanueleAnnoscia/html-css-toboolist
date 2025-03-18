@@ -22,16 +22,22 @@ html{
     
 }
 
+
 .box-logo{
-    position: absolute;
-    margin:0 auto;
+    vertical-align: middle;
     width: 400px;
     top:10px;
+    padding: 10px;
 }
 
 .title{
     font-size: 45px;
     color: black;
+    vertical-align: middle;
+}
+
+img{
+    vertical-align: middle;
 }
 
 /* MAIN */
@@ -46,13 +52,50 @@ html{
 }
 
 .anchor-tag{
-    border-bottom: 5px solid gray ;
-    padding: 10px;  
-    margin
+    border-bottom: 1px solid gray ;
+    padding: 15px;
+    margin-bottom: 15px;  
+
+}
+
+.add-task{
+    background-color: rgb(100, 199, 245);
+    color: white;
+    width: 15px;
+    aspect-ratio: 2;
+    border-radius: 15% ;
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+.add-section{
+    color: gray;
+    width: 15px;
+    aspect-ratio: 2;
+    border-radius: 15%;
+    border: 1px solid grey;
+    text-decoration: none;
+    padding: 5px;
+    background-color: white;
+
+}
+
+.main-title-list{
+    margin-top: 35px;
 }
 
 ul{
     list-style: none;
+
+}
+
+ul span{
+    margin: 10px;    
+}
+
+.main-title-list{
+    margin-top: 30px;
 }
 
 .editorial{
@@ -63,6 +106,7 @@ ul{
     border-radius: 20%;   
     padding: 3px; 
     font-size: small;
+    margin: 20px 10px;
 }
 
 .goals{
@@ -73,6 +117,7 @@ ul{
     border-radius: 20%;   
     padding: 3px; 
     font-size: small;
+    margin: 20px 10px ;
 }
 
 .recruiting{
@@ -114,9 +159,6 @@ ul{
     font-size: small;
 }
 
-.main-title-list{
-    
-}
 
 .cross{
 
@@ -146,29 +188,4 @@ ul{
    line-height: 20px;
    font-weight: bold;
    font-size: 14px;
-
-.add-task{
-    background-color: blue;
-    color: white;
-    width: 15px;
-    aspect-ratio: 2;
-    border-radius: 15% ;
-    text-decoration: none;
-    padding: 5px;
-
-}
-
-.add-section{
-    color: gray;
-    width: 15px;
-    aspect-ratio: 2;
-    border-radius: 15%;
-    border: 10px grey;
-    text-decoration: none;
-    padding: 5px;
-
-}
-
-.anchor-tag{
-    border-bottom: 2px darkgray;
 }
