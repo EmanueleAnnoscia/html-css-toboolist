@@ -1,12 +1,14 @@
 /* RESET */
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
 
 }
 
 html{
-    background-color: rgb(243, 241, 241);
+    background-color: rgb(216, 208, 208);
 
 }
 
@@ -20,12 +22,14 @@ html{
     
 }
 
-img{
-    vertical-align: middle;
+.box-logo{
+    position: absolute;
+    margin:0 auto;
+    width: 400px;
+    top:10px;
 }
 
 .title{
-    vertical-align: middle;
     font-size: 45px;
     color: black;
 }
@@ -42,8 +46,9 @@ img{
 }
 
 .anchor-tag{
-    border-bottom: 5px gray ;
+    border-bottom: 5px solid gray ;
     padding: 10px;  
+    margin
 }
 
 ul{
@@ -114,27 +119,33 @@ ul{
 }
 
 .cross{
+
     display: inline-block;
-    color: red;
-    border-color: red;
+    color: rgb(255, 0, 0); /* Il colore del simbolo della croce */
+    background-color: rgb(255, 255, 255); /* Sfondo rosso */
+    border: 2px solid red;
     width: 20px;
     aspect-ratio: 1;
-    border-radius: 100%;
+    border-radius: 50%;
     text-align: center;
-    margin: 2px;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 14px;
     
 }
 
 .check{
-    display: inline-block;
-    color: green;
-    border: green;
-    width: 20px;
-    aspect-ratio: 1;
-    border-radius: 100%;
-    text-align: center;
-    margin: 2px;
-}
+   display: inline-block;
+   color: green;
+   background-color: white; 
+   border: 2px solid green;
+   width: 20px;
+   aspect-ratio: 1;
+   border-radius: 50%;
+   text-align: center;
+   line-height: 20px;
+   font-weight: bold;
+   font-size: 14px;
 
 .add-task{
     background-color: blue;
