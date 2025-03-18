@@ -1,3 +1,4 @@
+/* RESET */
 *{
     box-sizing: border-box;
     font-family: Arial, sans-serif;
@@ -9,11 +10,27 @@ html{
 
 }
 
+/* HEADER */
+
 header{
     background-color: white;
-    margin: 0;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 75px;
     
 }
+
+img{
+    vertical-align: middle;
+}
+
+.title{
+    vertical-align: middle;
+    font-size: 45px;
+    color: black;
+}
+
+/* MAIN */
 
 .core-list{
     margin: 0 auto;
@@ -24,19 +41,110 @@ header{
 
 }
 
+.anchor-tag{
+    border-bottom: gray 5px;
+}
+
+ul{
+    list-style: none;
+}
+
+.editorial{
+    color: white;
+    background-color: rgb(71, 71, 218);
+    width: 40px;
+    height:20px;
+    border-radius: 20%;   
+    padding: 3px; 
+    font-size: small;
+}
+
+.goals{
+    color: white;
+    background-color: rgba(115, 49, 230, 0.867);
+    width: 40px;
+    height:30px;
+    border-radius: 20%;   
+    padding: 3px; 
+    font-size: small;
+}
+
+.recruiting{
+    color: white;
+    background-color: rgba(49, 175, 49, 0.867);
+    width: 40px;
+    height:30px;
+    border-radius: 20%;   
+    padding: 3px; 
+    font-size: small;
+}
+
+
+.mobile{
+    color: white;
+    background-color: rgba(244, 145, 24, 0.867);
+    width: 40px;
+    height:30px;
+    border-radius: 20%;   
+    padding: 3px; 
+    font-size: small;
+}
+.website{
+    color: white;
+    background-color: rgba(235, 89, 89, 0.867);
+    width: 40px;
+    height:30px;
+    border-radius: 20%;   
+    padding: 3px; 
+    font-size: small;
+}
+.sales{
+    color: white;
+    background-color: rgba(100, 216, 5, 0.867);
+    width: 40px;
+    height:30px;
+    border-radius: 20%;   
+    padding: 3px; 
+    font-size: small;
+}
+
+
+
+.cross{
+    color: red;
+    border: red;
+    width: 20px;
+    aspect-ratio: 1;
+    border-radius: 100%;
+}
+
+.check{
+    color: green;
+    border: green;
+    width: 20px;
+    aspect-ratio: 1;
+    border-radius: 100%;
+}
+
 .add-task{
     background-color: blue;
     color: white;
     width: 15px;
     aspect-ratio: 2;
     border-radius: 15% ;
+    text-decoration: none;
+    padding: 5px;
+
 }
 
-.add-selection{
+.add-section{
     color: gray;
     width: 15px;
     aspect-ratio: 2;
     border-radius: 15%;
+    border: 10px grey;
+    text-decoration: none;
+    padding: 5px;
 
 }
 
