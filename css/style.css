@@ -12,7 +12,7 @@ html{
 
 /* HEADER */
 
-header{
+.banner{
     background-color: white;
     max-width: 100%;
     margin: 0 auto;
@@ -42,7 +42,8 @@ img{
 }
 
 .anchor-tag{
-    border-bottom: gray 5px;
+    border-bottom: 5px gray ;
+    padding: 10px;  
 }
 
 ul{
@@ -108,22 +109,31 @@ ul{
     font-size: small;
 }
 
-
+.main-title-list{
+    margin: 10px;
+}
 
 .cross{
+    display: inline-block;
     color: red;
-    border: red;
+    border-color: red;
     width: 20px;
     aspect-ratio: 1;
     border-radius: 100%;
+    text-align: center;
+    margin: 2px;
+    
 }
 
 .check{
+    display: inline-block;
     color: green;
     border: green;
     width: 20px;
     aspect-ratio: 1;
     border-radius: 100%;
+    text-align: center;
+    margin: 2px;
 }
 
 .add-task{
