@@ -10,6 +10,12 @@ html{
 
 }
 
+header{
+    background-color: white;
+    margin: 0;
+    
+}
+
 .core-list{
     margin: 0 auto;
     width: 80%;
@@ -31,4 +37,8 @@ html{
     aspect-ratio: 2;
     border-radius: 15%;
 
+}
+
+.anchor-tag{
+    border-bottom: 2px darkgray;
 }
