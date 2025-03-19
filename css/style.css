@@ -165,8 +165,8 @@ ul span{
 .cross{
 
     display: inline-block;
-    color: rgb(255, 0, 0); /* Il colore del simbolo della croce */
-    background-color: rgb(255, 255, 255); /* Sfondo rosso */
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255); 
     border: 2px solid red;
     width: 20px;
     aspect-ratio: 1;
